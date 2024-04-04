@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "lib": ["es2019"],
+    "target": "es2018",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "build",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "alwaysStrict": true,
+    "noUnusedParameters": true,
+    "resolveJsonModule": true,
+  },
+  "ts-node": {
+    "files": true
+  },
+  "files": [
+    "src/index.d.ts",
+  ],
+  "include": ["**/*.ts", "**/*.js"]
+}
